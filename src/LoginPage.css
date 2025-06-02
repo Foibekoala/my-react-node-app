@@ -1,0 +1,65 @@
+.login-page {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.login-left {
+  background: linear-gradient(to bottom, #1a1a1a, #444);
+  color: white;
+  flex: 1;
+  padding: 60px 30px;
+}
+
+.login-left h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.login-left p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.login-right {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-right h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.primary-btn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+}

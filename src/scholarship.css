@@ -1,0 +1,46 @@
+/* FILE: css/scholarships.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #f0ad4e;
+  color: white;
+  padding: 15px 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.scholarship-list {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.scholarship {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.scholarship h3 {
+  color: #f0ad4e;
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #f0ad4e;
+  color: white;
+  padding: 10px;
+}
